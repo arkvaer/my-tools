@@ -83,7 +83,6 @@ function mainDelete() {
     setTimeout(function () {
         console.log("点击删除按钮!");
         $($('span.g-button-right')[15]).click();
-
         setTimeout(function () {
             console.log("点击确认按钮!");
             $($('span.g-button-right')[29]).click();
